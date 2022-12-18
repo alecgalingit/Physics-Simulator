@@ -1,0 +1,26 @@
+---
+# Members of your group.
+group:
+  - name: Salvatore Natale
+    netid: sjn49
+  - name: Jake Lawson
+    netid: jml496
+  - name: Eric Yoon
+    netid: ety7
+  - name: Alec Galin
+    netid: amg388
+# Your PM.
+pm:
+  name: Emory Walsh
+  netid: elw223
+# Set to false if you don't want your gallery entry to be public.
+publish: false
+# Pithy title
+title: "Physics Simulation"
+# OK if this is a Cornell Github link, but public gallery viewers won't be able to see it.
+git-repo: "https://github.coecis.cornell.edu/3110-Final-Project-Team/finalproject.git"
+# If you have no demo screencast, replace the url string with an empty string ""
+demo-video-url: ""
+# Write a short, attention-grabbing description of your project.
+desc: >
+  Our Physics Simulation provides a numerical method for simulating physics problems. Included are models for shapes falling due to gravity and colliding with objects on the way down. Another simulation is for mass-spring-damper systems. 
