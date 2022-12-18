@@ -1,5 +1,2 @@
-# finalproject
-Salvatore Natale sjn49
-jake lawson jml496
-Alec Galin amg388
-Eric Yoon ety7
+# Physics Simulator
+This project is a simple physics simulator with a user interface programmed in OCaml.
