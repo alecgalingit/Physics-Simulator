@@ -1,0 +1,14 @@
+(** @canonical Phys.Environment *)
+module Environment = Phys__Environment
+
+
+(** @canonical Phys.Object *)
+module Object = Phys__Object
+
+
+(** @canonical Phys.Oscillations *)
+module Oscillations = Phys__Oscillations
+
+
+(** @canonical Phys.State *)
+module State = Phys__State

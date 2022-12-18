@@ -1,0 +1,3 @@
+(executable
+ (name main)
+ (libraries Phys ounit2 qcheck))

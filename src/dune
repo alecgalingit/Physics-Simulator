@@ -1,0 +1,5 @@
+(library
+ (public_name Phys)
+ (libraries PhysMath LablGl LablGl.glut)
+ (instrumentation
+  (backend bisect_ppx)))

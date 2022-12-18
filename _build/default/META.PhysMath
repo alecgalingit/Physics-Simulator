@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "physmath.cma"
+archive(native) = "physmath.cmxa"
+plugin(byte) = "physmath.cma"
+plugin(native) = "physmath.cmxs"

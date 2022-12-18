@@ -1,0 +1,6 @@
+(library
+ (name gui)
+ (public_name Gui)
+ (libraries Phys LablGl LablGl.glut))
+
+; install all the needed graphics libraries here

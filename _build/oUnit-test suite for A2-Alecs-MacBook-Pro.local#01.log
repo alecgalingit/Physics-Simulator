@@ -1,0 +1,13 @@
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: Start test test suite for A2:0:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: Test test suite for A2:0:Check_collisions helper test using one circle obj list is successful.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: End test test suite for A2:0:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: Start test test suite for A2:2:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: Test test suite for A2:2:Check_collisions helper test using one circle obj list is successful.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: End test test suite for A2:2:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: Start test test suite for A2:3:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 E: Test test suite for A2:3:Check_collisions helper test using one circle obj list has failed.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 E: expected: -0.25 but got: 0.25 in test test suite for A2:3:Check_collisions helper test using one circle obj list.
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 E: 
+2022-12-12T08:14:45+00:00 Alecs-MacBook-Pro.local#01 I: End test test suite for A2:3:Check_collisions helper test using one circle obj list.

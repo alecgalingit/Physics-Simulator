@@ -1,0 +1,61 @@
+(lang dune 3.4)
+(name Gui)
+(sections (lib .) (libexec .) (doc ../../doc/Gui))
+(files
+ (lib
+  (META
+   dune-package
+   example.ml
+   gui.a
+   gui.cma
+   gui.cmi
+   gui.cmt
+   gui.cmx
+   gui.cmxa
+   gui.ml
+   gui__Example.cmi
+   gui__Example.cmt
+   gui__Example.cmx
+   gui__Interface.cmi
+   gui__Interface.cmt
+   gui__Interface.cmti
+   gui__Interface.cmx
+   gui__Interface_2.cmi
+   gui__Interface_2.cmt
+   gui__Interface_2.cmx
+   interface.ml
+   interface.mli
+   interface_2.ml
+   opam))
+ (libexec (gui.cmxs))
+ (doc (README.md)))
+(library
+ (name Gui)
+ (kind normal)
+ (archives (byte gui.cma) (native gui.cmxa))
+ (plugins (byte gui.cma) (native gui.cmxs))
+ (native_archives gui.a)
+ (requires Phys LablGl LablGl.glut)
+ (main_module_name Gui)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Gui)
+   (modules
+    ((name Example) (obj_name gui__Example) (visibility public) (impl))
+    ((name Interface)
+     (obj_name gui__Interface)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Interface_2)
+     (obj_name gui__Interface_2)
+     (visibility public)
+     (impl)))
+   (alias_module
+    (name Gui)
+    (obj_name gui)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

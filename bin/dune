@@ -1,0 +1,3 @@
+(executables
+ (names bounce plinko springs)
+ (libraries Gui Phys ANSITerminal PhysMath))

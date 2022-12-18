@@ -1,0 +1,73 @@
+(lang dune 3.4)
+(name Phys)
+(sections (lib .) (libexec .) (doc ../../doc/Phys))
+(files
+ (lib
+  (META
+   Phys.a
+   Phys.cma
+   Phys.cmxa
+   dune-package
+   environment.ml
+   environment.mli
+   object.ml
+   object.mli
+   opam
+   oscillations.ml
+   oscillations.mli
+   phys.cmi
+   phys.cmt
+   phys.cmx
+   phys.ml
+   phys__Environment.cmi
+   phys__Environment.cmt
+   phys__Environment.cmti
+   phys__Environment.cmx
+   phys__Object.cmi
+   phys__Object.cmt
+   phys__Object.cmti
+   phys__Object.cmx
+   phys__Oscillations.cmi
+   phys__Oscillations.cmt
+   phys__Oscillations.cmti
+   phys__Oscillations.cmx
+   phys__State.cmi
+   phys__State.cmt
+   phys__State.cmti
+   phys__State.cmx
+   state.ml
+   state.mli))
+ (libexec (Phys.cmxs))
+ (doc (README.md)))
+(library
+ (name Phys)
+ (kind normal)
+ (archives (byte Phys.cma) (native Phys.cmxa))
+ (plugins (byte Phys.cma) (native Phys.cmxs))
+ (native_archives Phys.a)
+ (requires PhysMath LablGl LablGl.glut)
+ (main_module_name Phys)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Phys)
+   (modules
+    ((name Environment)
+     (obj_name phys__Environment)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Object) (obj_name phys__Object) (visibility public) (impl) (intf))
+    ((name Oscillations)
+     (obj_name phys__Oscillations)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name State) (obj_name phys__State) (visibility public) (impl) (intf)))
+   (alias_module
+    (name Phys)
+    (obj_name phys)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

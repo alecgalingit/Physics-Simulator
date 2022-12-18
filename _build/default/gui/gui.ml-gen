@@ -1,0 +1,10 @@
+(** @canonical Gui.Example *)
+module Example = Gui__Example
+
+
+(** @canonical Gui.Interface *)
+module Interface = Gui__Interface
+
+
+(** @canonical Gui.Interface_2 *)
+module Interface_2 = Gui__Interface_2

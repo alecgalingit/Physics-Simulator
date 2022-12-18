@@ -1,0 +1,36 @@
+lib: [
+  "_build/install/default/lib/PhysMath/META"
+  "_build/install/default/lib/PhysMath/constants.ml"
+  "_build/install/default/lib/PhysMath/constants.mli"
+  "_build/install/default/lib/PhysMath/dune-package"
+  "_build/install/default/lib/PhysMath/numerical_analysis.ml"
+  "_build/install/default/lib/PhysMath/numerical_analysis.mli"
+  "_build/install/default/lib/PhysMath/opam"
+  "_build/install/default/lib/PhysMath/physmath.a"
+  "_build/install/default/lib/PhysMath/physmath.cma"
+  "_build/install/default/lib/PhysMath/physmath.cmi"
+  "_build/install/default/lib/PhysMath/physmath.cmt"
+  "_build/install/default/lib/PhysMath/physmath.cmx"
+  "_build/install/default/lib/PhysMath/physmath.cmxa"
+  "_build/install/default/lib/PhysMath/physmath.ml"
+  "_build/install/default/lib/PhysMath/physmath__Constants.cmi"
+  "_build/install/default/lib/PhysMath/physmath__Constants.cmt"
+  "_build/install/default/lib/PhysMath/physmath__Constants.cmti"
+  "_build/install/default/lib/PhysMath/physmath__Constants.cmx"
+  "_build/install/default/lib/PhysMath/physmath__Numerical_analysis.cmi"
+  "_build/install/default/lib/PhysMath/physmath__Numerical_analysis.cmt"
+  "_build/install/default/lib/PhysMath/physmath__Numerical_analysis.cmti"
+  "_build/install/default/lib/PhysMath/physmath__Numerical_analysis.cmx"
+  "_build/install/default/lib/PhysMath/physmath__Vector.cmi"
+  "_build/install/default/lib/PhysMath/physmath__Vector.cmt"
+  "_build/install/default/lib/PhysMath/physmath__Vector.cmti"
+  "_build/install/default/lib/PhysMath/physmath__Vector.cmx"
+  "_build/install/default/lib/PhysMath/vector.ml"
+  "_build/install/default/lib/PhysMath/vector.mli"
+]
+libexec: [
+  "_build/install/default/lib/PhysMath/physmath.cmxs"
+]
+doc: [
+  "_build/install/default/doc/PhysMath/README.md"
+]

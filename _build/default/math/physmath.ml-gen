@@ -1,0 +1,10 @@
+(** @canonical Physmath.Constants *)
+module Constants = Physmath__Constants
+
+
+(** @canonical Physmath.Numerical_analysis *)
+module Numerical_analysis = Physmath__Numerical_analysis
+
+
+(** @canonical Physmath.Vector *)
+module Vector = Physmath__Vector

@@ -1,0 +1,6 @@
+description = ""
+requires = "LablGl LablGl.glut PhysMath"
+archive(byte) = "Phys.cma"
+archive(native) = "Phys.cmxa"
+plugin(byte) = "Phys.cma"
+plugin(native) = "Phys.cmxs"

@@ -1,0 +1,69 @@
+(lang dune 3.4)
+(name PhysMath)
+(sections (lib .) (libexec .) (doc ../../doc/PhysMath))
+(files
+ (lib
+  (META
+   constants.ml
+   constants.mli
+   dune-package
+   numerical_analysis.ml
+   numerical_analysis.mli
+   opam
+   physmath.a
+   physmath.cma
+   physmath.cmi
+   physmath.cmt
+   physmath.cmx
+   physmath.cmxa
+   physmath.ml
+   physmath__Constants.cmi
+   physmath__Constants.cmt
+   physmath__Constants.cmti
+   physmath__Constants.cmx
+   physmath__Numerical_analysis.cmi
+   physmath__Numerical_analysis.cmt
+   physmath__Numerical_analysis.cmti
+   physmath__Numerical_analysis.cmx
+   physmath__Vector.cmi
+   physmath__Vector.cmt
+   physmath__Vector.cmti
+   physmath__Vector.cmx
+   vector.ml
+   vector.mli))
+ (libexec (physmath.cmxs))
+ (doc (README.md)))
+(library
+ (name PhysMath)
+ (kind normal)
+ (archives (byte physmath.cma) (native physmath.cmxa))
+ (plugins (byte physmath.cma) (native physmath.cmxs))
+ (native_archives physmath.a)
+ (main_module_name Physmath)
+ (modes byte native)
+ (modules
+  (wrapped
+   (main_module_name Physmath)
+   (modules
+    ((name Constants)
+     (obj_name physmath__Constants)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Numerical_analysis)
+     (obj_name physmath__Numerical_analysis)
+     (visibility public)
+     (impl)
+     (intf))
+    ((name Vector)
+     (obj_name physmath__Vector)
+     (visibility public)
+     (impl)
+     (intf)))
+   (alias_module
+    (name Physmath)
+    (obj_name physmath)
+    (visibility public)
+    (kind alias)
+    (impl))
+   (wrapped true))))

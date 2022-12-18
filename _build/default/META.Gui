@@ -1,0 +1,6 @@
+description = ""
+requires = "LablGl LablGl.glut Phys"
+archive(byte) = "gui.cma"
+archive(native) = "gui.cmxa"
+plugin(byte) = "gui.cma"
+plugin(native) = "gui.cmxs"

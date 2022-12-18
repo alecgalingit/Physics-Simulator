@@ -1,0 +1,32 @@
+lib: [
+  "_build/install/default/lib/Gui/META"
+  "_build/install/default/lib/Gui/dune-package"
+  "_build/install/default/lib/Gui/example.ml"
+  "_build/install/default/lib/Gui/gui.a"
+  "_build/install/default/lib/Gui/gui.cma"
+  "_build/install/default/lib/Gui/gui.cmi"
+  "_build/install/default/lib/Gui/gui.cmt"
+  "_build/install/default/lib/Gui/gui.cmx"
+  "_build/install/default/lib/Gui/gui.cmxa"
+  "_build/install/default/lib/Gui/gui.ml"
+  "_build/install/default/lib/Gui/gui__Example.cmi"
+  "_build/install/default/lib/Gui/gui__Example.cmt"
+  "_build/install/default/lib/Gui/gui__Example.cmx"
+  "_build/install/default/lib/Gui/gui__Interface.cmi"
+  "_build/install/default/lib/Gui/gui__Interface.cmt"
+  "_build/install/default/lib/Gui/gui__Interface.cmti"
+  "_build/install/default/lib/Gui/gui__Interface.cmx"
+  "_build/install/default/lib/Gui/gui__Interface_2.cmi"
+  "_build/install/default/lib/Gui/gui__Interface_2.cmt"
+  "_build/install/default/lib/Gui/gui__Interface_2.cmx"
+  "_build/install/default/lib/Gui/interface.ml"
+  "_build/install/default/lib/Gui/interface.mli"
+  "_build/install/default/lib/Gui/interface_2.ml"
+  "_build/install/default/lib/Gui/opam"
+]
+libexec: [
+  "_build/install/default/lib/Gui/gui.cmxs"
+]
+doc: [
+  "_build/install/default/doc/Gui/README.md"
+]
